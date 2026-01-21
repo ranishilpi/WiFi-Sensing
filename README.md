@@ -93,14 +93,23 @@ WiFi sensing overcomes these issues by:
 ## 📂 Project Structure
 
 ├── data/ # WiFi CSI datasets
+
 ├── preprocessing/ # CSI cleaning and windowing
+
 ├── feature_extraction/ # Statistical feature computation
+
 ├── models/
+
 │ ├── random_forest.py
+
 │ └── cnn_model.py
+
 ├── evaluation/ # Metrics and reports
+
 ├── results/ # Accuracy and plots
+
 ├── README.md
+
 └── requirements.txt
 
 ---
